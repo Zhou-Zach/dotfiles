@@ -1,8 +1,8 @@
 #!/bin/bash
 
 link_file() {
-	SOURCE_FILE=/Users/zhouzhiqiang/dotfiles/$1
-	DESTINATION_FILE=/Users/zhouzhiqiang/$2
+	SOURCE_FILE=`pwd`/$1
+	DESTINATION_FILE=$HOME/$2
 	if [ -h $DESTINATION_FILE ] ; then
 		echo -n "remove symbolic link: "
 		rm -v $DESTINATION_FILE
@@ -16,5 +16,7 @@ link_file() {
 }
 
 link_file tmux.conf .tmux.conf 
-link_file zshrc .zshrc
 link_file vimrc .vimrc
+
+# not to forget source $HOME/.zshrc
+link_file zshrc .zshrc
