@@ -17,3 +17,4 @@ link_file() {
 
 link_file tmux.conf .tmux.conf 
 link_file zshrc .zshrc
+link_file vimrc .vimrc
