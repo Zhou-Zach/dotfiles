@@ -11,6 +11,7 @@
 " - Buid Integration (if we have time)
 
 " BASIC SETUP ------------------------ {{{
+" no compatible with vi
 set nocompatible
 
 filetype plugin indent on
