@@ -1,4 +1,3 @@
-hello
 Prerequisites
 ========
     vim-plug should be installed
