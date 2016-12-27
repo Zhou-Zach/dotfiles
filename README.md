@@ -1,6 +1,5 @@
-
 Prerequisites
-========
+============
     vim-plug should be installed
 
 Usage
