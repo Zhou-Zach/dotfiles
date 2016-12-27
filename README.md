@@ -1,6 +1,7 @@
 Prerequisites
 ============
     vim-plug should be installed
+    Tmux Plugin Manager should be installed
 
 Usage
 ========
