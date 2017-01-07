@@ -17,6 +17,7 @@ link_file() {
 
 link_file tmux.conf .tmux.conf 
 link_file vimrc .vimrc
+link_file sbt/repositories .sbt/repositories
 
 # not to forget source $HOME/.zshrc
 link_file zshrc .zshrc
