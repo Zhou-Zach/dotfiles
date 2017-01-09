@@ -14,6 +14,8 @@
 " no compatible with vi
 set nocompatible
 
+set t_Co=256
+
 filetype plugin indent on
 syntax on
 
