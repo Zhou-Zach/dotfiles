@@ -130,7 +130,6 @@ Plug 'https://github.com/tpope/vim-surround'
 Plug 'https://github.com/tpope/vim-fugitive'
 Plug 'https://github.com/kien/ctrlp.vim'
 Plug 'https://github.com/scrooloose/nerdtree'
-Plug 'https://github.com/klen/python-mode'
 Plug 'https://github.com/scrooloose/nerdcommenter'
 Plug 'https://github.com/vim-syntastic/syntastic'
 Plug 'https://github.com/easymotion/vim-easymotion'
@@ -191,6 +190,8 @@ augroup filetype_html
 augroup END
 " }}}
 
+" source ~/.vimrc after write ~/.vimrc.
+autocmd BufWritePost ~/.vimrc :so ~/.vimrc
 " Vimscript file settings ----------------------------- {{{
 augroup filetype_vim
     autocmd!
