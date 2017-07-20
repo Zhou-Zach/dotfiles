@@ -15,7 +15,7 @@ link_file() {
 	ln -sv $SOURCE_FILE $DESTINATION_FILE
 }
 
-link_file tmux.conf .tmux.conf 
+#link_file tmux.conf .tmux.conf 
 link_file vimrc .vimrc
 link_file sbt/repositories .sbt/repositories
 

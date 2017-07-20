@@ -152,11 +152,6 @@ augroup END
 :noremap <F8> :call asyncrun#quickfix_toggle(8)<cr>
 " }}}
 
-" Set airline all the time -------------------- {{{
-let g:airline_section_error = airline#section#create_right(['%{g:asyncrun_status}'])
-set laststatus=2
-" }}}
-
 " Learn Vimscript the hard way:
 nnoremap <space> za
 inoremap <c-u> <esc>viwUea
